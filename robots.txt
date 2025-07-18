@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://blota.github.io/sitemap.xml
+Sitemap: https://ablot.github.io/sitemap.xml
