@@ -60,60 +60,59 @@
     {
       "institution": "Ecole Normale Superior",
       "location": "Paris, France",
-      "url": "https://www.uzh.ch/",
+      "url": "https://www.ens.psl.eu/",
       "area": "Functions of cerebellar molecular layer interneurones",
-      "studyType": "PhD",
+      "studyType": "PhD under the supervision of Dr. Boris Barbour",
       "startDate": "2009-09-01",
       "endDate": "2013-09-20"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Visual intracortical and transthalamic pathways carry distinct information to cortical areas",
+      "publisher": "Neuron",
+      "releaseDate": "2021-06-29",
+      "url": "https://www.sciencedirect.com/science/article/pii/S089662732100283X",
+      "summary": "Anatomical description of the organisation of the transthalamic pathway and characterisation of the functional specificity of its projection to different visual areas."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Ultra-rapid axon-axon ephaptic inhibition of cerebellar Purkinje cells by the pinceau",
+      "publisher": "Nature Neuroscience",
+      "releaseDate": "2014-01-31",
+      "url": "http://www.nature.com/neuro/journal/v17/n2/full/nn.3624.html",
+      "summary": "Demonstration of direct ephatic coupling between two neurons in the mamalian brain."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Computer skills",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Extensive experience with Python",
+        "Familiar with Git, Matlab, Bonsai-rx, ImageJ"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "French",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-baby"
     },
     {
       "language": "English",
       "fluency": "Fluent",
+      "icon": "fa-solid fa-home"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate (B2)",
+      "icon": ""
+    },
+    {
+      "language": "Hungarian",
+      "fluency": "Lower intermediate (B1)",
       "icon": ""
     }
   ],
@@ -124,10 +123,7 @@
       "keywords": [
         "Depth perception",
         "Electrophysiology",
-        "",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        ""
       ]
     }
   ],
