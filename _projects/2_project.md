@@ -11,4 +11,3 @@ related_publications: true
 ---
 
 See <a href="https://znamlab.org/3dvision">the lab website</a>.
-

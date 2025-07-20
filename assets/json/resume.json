@@ -30,8 +30,7 @@
       "startDate": "2020-09-01",
       "endDate": "present",
       "summary": "Neural circuit for depth perception in the primary visual cortex",
-      "highlights": ["Freely moving electrophysiological recording with head/eye tracking.",
-      "Molecular connectomics using barcoded rabies virus."]
+      "highlights": ["Freely moving electrophysiological recording with head/eye tracking.", "Molecular connectomics using barcoded rabies virus."]
     },
     {
       "name": "Sainsbury Wellcome Centre - UCL",
@@ -41,8 +40,10 @@
       "startDate": "2018-03-01",
       "endDate": "2020-09-01",
       "summary": "Functional organisation of higher-order thalamocortical circuits in the mouse visual system",
-      "highlights": ["Two-photon calcium imaging of axonal projections and acute silicon probe recording in awake mice.",
-      "Head-fixed electrophysiology recoridng of preparatory activity in the cerebellum."]
+      "highlights": [
+        "Two-photon calcium imaging of axonal projections and acute silicon probe recording in awake mice.",
+        "Head-fixed electrophysiology recoridng of preparatory activity in the cerebellum."
+      ]
     },
     {
       "name": "Biozentrum",
@@ -52,8 +53,10 @@
       "startDate": "2014-02-01",
       "endDate": "2018-03-01",
       "summary": "Functional organisation of higher-order thalamocortical circuits in the mouse visual system",
-      "highlights": ["Slice electrophysiology, CRACM characterisation of thalamic input and of GCaMP6f linearity in cortical interneurons",
-      "Posthoc immunostaining of cells functionally characterised by two-photon imaging in vivo."]
+      "highlights": [
+        "Slice electrophysiology, CRACM characterisation of thalamic input and of GCaMP6f linearity in cortical interneurons",
+        "Posthoc immunostaining of cells functionally characterised by two-photon imaging in vivo."
+      ]
     }
   ],
   "education": [
@@ -88,10 +91,7 @@
       "name": "Computer skills",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Extensive experience with Python",
-        "Familiar with Git, Matlab, Bonsai-rx, ImageJ"
-      ]
+      "keywords": ["Extensive experience with Python", "Familiar with Git, Matlab, Bonsai-rx, ImageJ"]
     }
   ],
   "languages": [
@@ -120,11 +120,7 @@
     {
       "name": "Neurosciences",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Depth perception",
-        "Electrophysiology",
-        ""
-      ]
+      "keywords": ["Depth perception", "Electrophysiology", ""]
     }
   ],
   "references": [
