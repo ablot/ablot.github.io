@@ -2,7 +2,7 @@
 layout: page
 title: Vinyl tray
 description: A small tray to store a few records
-img: assets/img/bakelite_tray_finished.jpg
+img: assets/img/bakelite_tray/bakelite_tray_finished.jpg
 importance: 2
 category: fun
 giscus_comments: true
@@ -15,14 +15,14 @@ for. So I made a tiny tray to store them.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/floorboard.jpg" title="Solid
+        {% include figure.liquid loading="eager" path="assets/img/bakelite_tray/floorboard.jpg" title="Solid
         oak floorboard recovered from the neighbour" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ikea_besta.jpg" title="An unused IKEA BESTÅ shelf" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bakelite_tray/ikea_besta.jpg" title="An unused IKEA BESTÅ shelf" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pine_stick.png" title="Some 
+        {% include figure.liquid loading="eager" path="assets/img/bakelite_tray/pine_stick.png" title="Some 
         pine plinths from the local DIY shop" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -42,11 +42,11 @@ paint for another project, which was perfect for the frame.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/shavings.jpg" title="A full bucket of 
+        {% include figure.liquid path="assets/img/bakelite_tray/shavings.jpg" title="A full bucket of 
         shavings for two tiny boards" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/bakelite_tray_empty.jpg" title="Finished tray" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/bakelite_tray/bakelite_tray_empty.jpg" title="Finished tray" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -57,7 +57,7 @@ paint for another project, which was perfect for the frame.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bakelite_tray_inplace.jpg" title="The tray in place" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bakelite_tray/bakelite_tray_inplace.jpg" title="The tray in place" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
