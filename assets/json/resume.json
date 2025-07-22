@@ -72,6 +72,13 @@
   ],
   "publications": [
     {
+      "name": "Barcoded Rabies In Situ Connectomics for high-throughput reconstruction of neural circuits",
+      "publisher": "BioRXiv",
+      "releaseDate": "2021-05-16",
+      "url": "https://www.biorxiv.org/content/early/2025/07/20/2025.07.16.665048",
+      "summary": "Development of a new method for high-througput connectomics."
+    },
+    {
       "name": "Visual intracortical and transthalamic pathways carry distinct information to cortical areas",
       "publisher": "Neuron",
       "releaseDate": "2021-06-29",
