@@ -1,0 +1,4 @@
+# This file contains settings for local development.
+# These settings are not used in production.
+
+show_drafts: true
