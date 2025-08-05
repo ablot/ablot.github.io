@@ -18,6 +18,7 @@ chart:
   plotly: true
 toc:
   sidebar: left
+thumbnail: assets/img/msi_screen/mouse.png
 ---
 
 We use VR setups, see for instance [this study](https://www.biorxiv.org/content/10.1101/2024.09.27.615442v1.abstract), which require fast monitors. We recently got some cheap gaming monitors from [MSI](https://www.msi.com/Monitor/G255F)
