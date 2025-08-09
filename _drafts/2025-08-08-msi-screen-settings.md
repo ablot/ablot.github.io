@@ -5,17 +5,14 @@ description: Gaming monitors are cheap, have fast response time and high refresh
 tags: visual-stimulation calibration display hardware-config
 categories: hardware-config
 featured: true
-date: 2025-07-20 12:00:00
+date: 2025-08-08 12:00:00
 giscus_comments: true
 authors:
   - name: Antonin Blot
     url: "https://ablot.github.io/"
     affiliations:
       name: The Francis Crick Institute, London
-citation: true
 google-scholar: true
-chart:
-  plotly: true
 toc:
   sidebar: left
 thumbnail: assets/img/msi_screen/mouse.png
