@@ -51,15 +51,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+        },{id: "post-which-gaming-mode-will-please-my-mice",
         
-          title: "a post with table of contents on a sidebar",
+          title: 'Which gaming mode will please my mice? <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "an example of a blog post with table of contents on a sidebar",
+        description: "Gaming monitors are cheap, have fast response time and high refresh rate. They come with plenty of fancy gaming modes which are not well described. What are they and which one should I use for visual stimulation?",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
+            window.open("https://znamlab.org/hardware-config/2025/08/08/msi-screen-settings.html", "_blank");
           
         },
       },{id: "books-the-godfather",
