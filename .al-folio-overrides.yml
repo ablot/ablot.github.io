@@ -1,0 +1,10 @@
+---
+version: 1
+overrides:
+  _includes/citation.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.10
+    upstream_path: _includes/citation.liquid
+    upstream_sha256: 6a175755c6b80984038adb714980f77b0a092e4b33fcd263d13e47f0c0ff3792
+    local_sha256: c72c9f60ec96c1eb489dd483bd78c9c698d58b9937925d5922c04fdd338a4ec6
+    acknowledged_at: '2026-07-11'
