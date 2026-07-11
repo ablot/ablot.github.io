@@ -7,4 +7,4 @@ nav: true
 nav_order: 6
 ---
 
-To Do
+{% include courses.liquid %}
