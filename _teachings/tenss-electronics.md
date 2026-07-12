@@ -8,7 +8,7 @@ course_id: tenss-electronics
 ---
 
 Since 2018, I co-organise part of the "Ephys and Behaviour" module of [TENSS](https://tenss.github.io/TENSS_Electronics/).
-Over the years many instructors contributed to the main practicals that walks through building a small amplifier able to record extracellular signals (namely spikes from a cockroach leg). We start from basic components (resistors, capacitors, op-amps) and working up through passive filters, voltage followers, active filters, and differential amplification to a full recording circuit. 
+Over the years many instructors contributed to the main practicals that walks through building a small amplifier able to record extracellular signals (namely spikes from a cockroach leg). We start from basic components (resistors, capacitors, op-amps) and working up through passive filters, voltage followers, active filters, and differential amplification to a full recording circuit.
 
 ## Practicals
 

@@ -9,7 +9,7 @@ giscus_comments: true
 related_publications: false
 ---
 
-After two years in a new flat, I still haven't found a way to turn on/off the lights in 
+After two years in a new flat, I still haven't found a way to turn on/off the lights in
 the staircase without changing all the other lights in the house. I recently started my journey into home automation, with the main goal of integrating my legacy **Lutron Grafik Eye 3000** system into **Home Assistant**.
 
 ## The Goal
@@ -19,9 +19,11 @@ The Lutron Grafik Eye 3000 is a fantastic, robust lighting controller, but it's 
 ## The Setup
 
 ### Home Assistant Installation
+
 I decided to run Home Assistant on ... <!-- User to fill in hardware details -->
 
 ### Hardware Bridge
+
 To talk to the Grafik Eye, I'm using ... <!-- e.g. Lutron GRX-PRG or an RS232 to Ethernet adapter -->
 
 ## Implementation Steps
@@ -31,6 +33,6 @@ To talk to the Grafik Eye, I'm using ... <!-- e.g. Lutron GRX-PRG or an RS232 to
 3. **Home Assistant Integration**: Configuring the `lutron` or `manual_serial` integration.
 4. **Automations**: Creating the first "Movie Mode" and "Dinner" scenes.
 
-***
+---
 
-*More details to come as the project progresses!*
+_More details to come as the project progresses!_
