@@ -5,10 +5,53 @@ tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/comments-test-override.yml"
 tmp_site="${tmp_dir}/site"
 
+# This test needs a giscus_comments:true post and a disqus_comments:true post
+# to exercise the al_comments tag. It doesn't assume any particular content
+# lives in _posts (a downstream site is free to remove/rename demo posts), so
+# it creates its own throwaway fixtures for the duration of the build and
+# restores whatever was at those paths before (if anything) afterwards.
+giscus_post="_posts/2022-02-01-giscus-comments.md"
+disqus_post="_posts/2015-10-20-disqus-comments.md"
+giscus_backup="${tmp_dir}/giscus-comments.md.bak"
+disqus_backup="${tmp_dir}/disqus-comments.md.bak"
+
 cleanup() {
+  if [ -f "${giscus_backup}" ]; then
+    mv "${giscus_backup}" "${giscus_post}"
+  else
+    rm -f "${giscus_post}"
+  fi
+  if [ -f "${disqus_backup}" ]; then
+    mv "${disqus_backup}" "${disqus_post}"
+  else
+    rm -f "${disqus_post}"
+  fi
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
+
+[ -f "${giscus_post}" ] && cp "${giscus_post}" "${giscus_backup}"
+[ -f "${disqus_post}" ] && cp "${disqus_post}" "${disqus_backup}"
+
+cat >"${giscus_post}" <<'MD'
+---
+layout: post
+title: Giscus comments integration fixture
+giscus_comments: true
+---
+
+Throwaway fixture created by test/integration_comments.sh.
+MD
+
+cat >"${disqus_post}" <<'MD'
+---
+layout: post
+title: Disqus comments integration fixture
+disqus_comments: true
+---
+
+Throwaway fixture created by test/integration_comments.sh.
+MD
 
 cat >"${tmp_override}" <<'YAML'
 giscus:
