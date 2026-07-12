@@ -61,9 +61,43 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
+// Local overrides acknowledged via `bundle exec al-folio upgrade overrides accept`
+// (recorded in .al-folio-overrides.yml) are allowed to shadow gem-owned files.
+const acknowledgedOverrides = new Set();
+const overridesFilePath = ".al-folio-overrides.yml";
+if (exists(overridesFilePath)) {
+  const overrideKeyPattern = /^  (\S.*):\s*$/gm;
+  let match;
+  while ((match = overrideKeyPattern.exec(read(overridesFilePath))) !== null) {
+    acknowledgedOverrides.add(match[1]);
+  }
+}
+
+const listFilesRecursively = (relDir) => {
+  const absDir = path.join(root, relDir);
+  return fs.readdirSync(absDir, { withFileTypes: true }).flatMap((entry) => {
+    const entryRelPath = path.join(relDir, entry.name);
+    return entry.isDirectory() ? listFilesRecursively(entryRelPath) : [entryRelPath];
+  });
+};
+
 for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
-  if (exists(forbiddenPath)) {
+  if (!exists(forbiddenPath)) {
+    continue;
+  }
+  if (!fs.statSync(path.join(root, forbiddenPath)).isDirectory()) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
+    continue;
+  }
+  const unacknowledged = listFilesRecursively(forbiddenPath)
+    .map((relPath) => relPath.split(path.sep).join("/"))
+    .filter((relPath) => !acknowledgedOverrides.has(relPath));
+  if (unacknowledged.length > 0) {
+    failures.push(
+      `Starter must not own core component path \`${forbiddenPath}\`; found unacknowledged file(s): ${unacknowledged.join(
+        ", "
+      )}. Acknowledge via \`bundle exec al-folio upgrade overrides accept\` or move ownership to the corresponding gem.`
+    );
   }
 }
 
