@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-10'
 papers:
   Q-xGgTgAAAAJ:2osOgNQ5qMEC:
     citations: 36
@@ -50,7 +50,7 @@ papers:
     title: Barcoded Rabies In Situ Connectomics for high-throughput reconstruction of neural circuits
     year: '2025'
   Q-xGgTgAAAAJ:tYavs44e6CUC:
-    citations: 183
+    citations: 184
     title: A database and deep learning toolbox for noise-optimized, generalized spike inference from calcium imaging
     year: '2021'
   Q-xGgTgAAAAJ:tuHXwOkdijsC:
