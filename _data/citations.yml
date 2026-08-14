@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-08-14'
 papers:
   Q-xGgTgAAAAJ:2osOgNQ5qMEC:
     citations: 36
@@ -18,7 +18,7 @@ papers:
     title: Visual intracortical and transthalamic pathways carry distinct information to cortical areas
     year: '2021'
   Q-xGgTgAAAAJ:L7CI7m0gUJcC:
-    citations: 275
+    citations: 276
     title: Distinct learning-induced changes in stimulus selectivity and interactions of GABAergic interneuron classes in visual cortex
     year: '2018'
   Q-xGgTgAAAAJ:LI9QrySNdTsC:
@@ -34,7 +34,7 @@ papers:
     title: Learning and attention increase visual response selectivity through distinct mechanisms
     year: '2022'
   Q-xGgTgAAAAJ:d1gkVwhDpl0C:
-    citations: 152
+    citations: 154
     title: Ultra-rapid axon-axon ephaptic inhibition of cerebellar Purkinje cells by the pinceau
     year: '2014'
   Q-xGgTgAAAAJ:g3aElNc5_aQC:
