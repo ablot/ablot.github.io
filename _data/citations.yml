@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-08-31'
 papers:
   Q-xGgTgAAAAJ:2osOgNQ5qMEC:
     citations: 36
@@ -10,15 +10,15 @@ papers:
     title: Functions of cerebellar molecular layer interneurones
     year: '2013'
   Q-xGgTgAAAAJ:ILKRHgRFtOwC:
-    citations: 227
+    citations: 228
     title: Cerebellar contribution to preparatory activity in motor neocortex
     year: '2019'
   Q-xGgTgAAAAJ:KUbvn5osdkgC:
-    citations: 109
+    citations: 112
     title: Visual intracortical and transthalamic pathways carry distinct information to cortical areas
     year: '2021'
   Q-xGgTgAAAAJ:L7CI7m0gUJcC:
-    citations: 276
+    citations: 278
     title: Distinct learning-induced changes in stimulus selectivity and interactions of GABAergic interneuron classes in visual cortex
     year: '2018'
   Q-xGgTgAAAAJ:LI9QrySNdTsC:
@@ -34,7 +34,7 @@ papers:
     title: Learning and attention increase visual response selectivity through distinct mechanisms
     year: '2022'
   Q-xGgTgAAAAJ:d1gkVwhDpl0C:
-    citations: 154
+    citations: 156
     title: Ultra-rapid axon-axon ephaptic inhibition of cerebellar Purkinje cells by the pinceau
     year: '2014'
   Q-xGgTgAAAAJ:g3aElNc5_aQC:
@@ -42,7 +42,7 @@ papers:
     title: Cerebellar learning using perturbations
     year: '2018'
   Q-xGgTgAAAAJ:gsN89kCJA0AC:
-    citations: 36
+    citations: 37
     title: Learning shapes cortical dynamics to enhance integration of relevant sensory input
     year: '2023'
   Q-xGgTgAAAAJ:lmc2jWPfTJgC:
@@ -50,7 +50,7 @@ papers:
     title: Barcoded Rabies In Situ Connectomics for high-throughput reconstruction of neural circuits
     year: '2025'
   Q-xGgTgAAAAJ:tYavs44e6CUC:
-    citations: 184
+    citations: 187
     title: A database and deep learning toolbox for noise-optimized, generalized spike inference from calcium imaging
     year: '2021'
   Q-xGgTgAAAAJ:tuHXwOkdijsC:
