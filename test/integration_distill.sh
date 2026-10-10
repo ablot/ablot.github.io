@@ -5,10 +5,30 @@ tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
 
+# This test needs a published distill-layout post (with giscus/mermaid/tikzjax
+# enabled) to exist at /blog/2021/distill/. It doesn't assume the site keeps a
+# stock demo post at that exact dated filename (a downstream site is free to
+# rename/unpublish demo content), so if `_posts/distill.md` exists undated
+# (unpublished) it's temporarily republished under its own `date:` front
+# matter for the duration of the build, then restored afterwards.
+distill_source="_posts/distill.md"
+distill_post="_posts/2021-05-22-distill.md"
+distill_backup="${tmp_dir}/distill.md.bak"
+
 cleanup() {
+  if [ -f "${distill_backup}" ]; then
+    mv "${distill_backup}" "${distill_post}"
+  elif [ -f "${distill_post}" ] && [ "${distill_post}" != "${distill_source}" ]; then
+    rm -f "${distill_post}"
+  fi
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
+
+if [ "${distill_post}" != "${distill_source}" ] && [ -f "${distill_source}" ]; then
+  [ -f "${distill_post}" ] && cp "${distill_post}" "${distill_backup}"
+  cp "${distill_source}" "${distill_post}"
+fi
 
 cat >"${tmp_override}" <<'YAML'
 giscus:
