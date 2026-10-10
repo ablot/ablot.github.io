@@ -5,13 +5,13 @@
     "image": "",
     "email": "antonin.blot@crick.ac.uk",
     "phone": "",
-    "url": "https://https://ablot.github.io/",
+    "url": "https://ablot.github.io/",
     "summary": "",
     "location": {
-      "address": "1 Midland road",
+      "address": "1 Midland Road",
       "postalCode": "NW1 1AT",
       "city": "London",
-      "countryCode": "USK"
+      "countryCode": "UK"
     },
     "profiles": [
       {
@@ -42,7 +42,7 @@
       "summary": "Functional organisation of higher-order thalamocortical circuits in the mouse visual system",
       "highlights": [
         "Two-photon calcium imaging of axonal projections and acute silicon probe recording in awake mice.",
-        "Head-fixed electrophysiology recoridng of preparatory activity in the cerebellum."
+        "Head-fixed electrophysiology recording of preparatory activity in the cerebellum."
       ]
     },
     {
@@ -55,13 +55,13 @@
       "summary": "Functional organisation of higher-order thalamocortical circuits in the mouse visual system",
       "highlights": [
         "Slice electrophysiology, CRACM characterisation of thalamic input and of GCaMP6f linearity in cortical interneurons",
-        "Posthoc immunostaining of cells functionally characterised by two-photon imaging in vivo."
+        "Post-hoc immunostaining of cells functionally characterised by two-photon imaging in vivo."
       ]
     }
   ],
   "education": [
     {
-      "institution": "Ecole Normale Superior",
+      "institution": "École Normale Supérieure",
       "location": "Paris, France",
       "url": "https://www.ens.psl.eu/",
       "area": "Functions of cerebellar molecular layer interneurones",
@@ -73,10 +73,10 @@
   "publications": [
     {
       "name": "Barcoded Rabies In Situ Connectomics for high-throughput reconstruction of neural circuits",
-      "publisher": "BioRXiv",
-      "releaseDate": "2021-05-16",
-      "url": "https://www.biorxiv.org/content/early/2025/07/20/2025.07.16.665048",
-      "summary": "Development of a new method for high-througput connectomics."
+      "publisher": "Nature Communications",
+      "releaseDate": "2026-09-02",
+      "url": "https://www.nature.com/articles/s41467-026-77105-y",
+      "summary": "Development of a new method for high-throughput connectomics."
     },
     {
       "name": "Visual intracortical and transthalamic pathways carry distinct information to cortical areas",
@@ -90,13 +90,12 @@
       "publisher": "Nature Neuroscience",
       "releaseDate": "2014-01-31",
       "url": "http://www.nature.com/neuro/journal/v17/n2/full/nn.3624.html",
-      "summary": "Demonstration of direct ephatic coupling between two neurons in the mamalian brain."
+      "summary": "Demonstration of direct ephaptic coupling between two neurons in the mammalian brain."
     }
   ],
   "skills": [
     {
       "name": "Computer skills",
-      "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": ["Extensive experience with Python", "Familiar with Git, Matlab, Bonsai-rx, ImageJ"]
     }
@@ -125,9 +124,9 @@
   ],
   "interests": [
     {
-      "name": "Neurosciences",
+      "name": "Neuroscience",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Depth perception", "Electrophysiology", ""]
+      "keywords": ["Depth perception", "Electrophysiology"]
     }
   ],
   "references": [
@@ -139,12 +138,12 @@
     {
       "name": "Dr. Boris Barbour",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Chairman of Neuroscience section, group leader, Cerebellum group. Institut de Biologie de l’Ecole Normale Superieure"
+      "reference": "Chairman of Neuroscience section, group leader, Cerebellum group. Institut de Biologie de l'École Normale Supérieure"
     },
     {
-      "name": "Pr. Sonja Hofer",
+      "name": "Prof. Sonja Hofer",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Group leader, Sainsbury Wellcome centre - UCL - London"
+      "reference": "Group leader, Sainsbury Wellcome Centre - UCL - London"
     }
   ]
 }
